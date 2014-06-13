@@ -11,4 +11,5 @@ var totalOfAllGames= Number(game1) + Number(game2) + Number(game3);// all 3 game
 var average= totalOfAllGames / 3; //total of all 3 games divided by the amount of 3 games played
 
 
-console.log(firstName + lastName + "had a total of " + totalOfAllGames)
+console.log(firstName + " " + lastName + " had a total of " + totalOfAllGames + " for all 3 games.\nHis average for the night is " + average +".")
+// Example... John Smith  had a total of 375 for all 3 games. His average for the night is 125.
