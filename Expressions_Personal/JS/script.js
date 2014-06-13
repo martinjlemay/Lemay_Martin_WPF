@@ -11,4 +11,4 @@ var totalOfAllGames= Number(game1) + Number(game2) + Number(game3);// all 3 game
 var average= totalOfAllGames / 3; //total of all 3 games divided by the amount of 3 games played
 
 
-console.log("totalOfAllGames)
+console.log(firstName + lastName + "had a total of " + totalOfAllGames)
