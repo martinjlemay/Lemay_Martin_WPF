@@ -4,21 +4,19 @@
 
 // Going to the movies or Chuck-E-Cheese or Miniature golf
 
-var rain= prompt("Is it raining? Please type \'Yes\' or \'No\' ");
-var babySitter= prompt("Is a babysitter available. \'Yes\' or \'No\' ");
+var rain= prompt("Is it raining? Please type \'yes\' or \'no\' ");
+var babySitter= prompt("Is a babysitter available. \'yes\' or \'no\' ");
 
-
-if (babySitter === "Yes"){
-    if (rain === "No"){
+if (babySitter == "yes"){
+    if (rain == "no"){
         console.log("We will be going to play miniature golf.");
-    }else if(rain === "Yes"){
+    }else if(rain == "yes"){
         console.log("We will be going to the movies.");
     }
     else{
-
     }
 }
-if (babySitter === "No"){
+if (babySitter == "no"){
     console.log("We will take our child to Chuck-E-Cheese.");
 }
 
