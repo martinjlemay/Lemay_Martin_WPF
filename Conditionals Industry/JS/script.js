@@ -11,7 +11,7 @@ var totalSignal = incomingSignal - signalLoss;
 
 if (totalSignal <= -15){
     console.log("You will have" + signalLoss + "db loss with " + numberOfJacks + " cable jacks. Your signal on " +
-    "this system will be " + totalSignal + " Technician must add booster.");
+    "this system will be " + totalSignal + "db. Technician must add booster.");
 }else{
 console.log("You will have "  + signalLoss + "db loss with " + numberOfJacks + " cable jacks. Your signal on " +
-    "this system will be " + totalSignal);}
+    "this system will be " + totalSignal + "db. The signal is good for installation of service");}
