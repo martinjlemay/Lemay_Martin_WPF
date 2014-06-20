@@ -43,7 +43,7 @@ if (chokePulled === true){
                         if (runSmooth === "yes"){
                             console.log("You should up and running")
                         }else{
-                            prompt(chokePulled);
+                            prompt("Pull choke until engine runs rough, then push choke in.");
                         }
 
                     }
