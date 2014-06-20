@@ -14,8 +14,8 @@ var runSmooth = prompt("Is snow blower running smooth? \'yes\' or \'no\'");
 if (chokePulled === "yes"){
     prompt(ropePulled);
     }else{
-        prompt(chokePulled);}
-
+        prompt(chokePulled);
+}
         if (ropePulled === "yes"){
             prompt(snowBlowerRun);
         }else{
