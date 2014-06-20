@@ -11,43 +11,33 @@ var runRough = prompt("Is snow blower running rough? \'yes\' or \'no\'");
 var chokePushed = prompt("Push in choke. Is Choke off? \'yes\' or \'no\'");
 var runSmooth = prompt("Is snow blower running smooth? \'yes\' or \'no\'");
 
-if (chokePulled === true){
+if (chokePulled = true){
     prompt(ropePulled);
-    }else{
-        prompt(chokePulled);
-
-        if (ropePulled === true){
-            prompt(snowBlowerRun);
-        }else{
-            prompt(ropePulled);
-
-
-            if (snowBlowerRun === "yes"){
-                prompt(runRough);
-            }else{
-                prompt(ropePulled);
-
-
-                if (runRough === "yes"){
-                    prompt(chokePushed);
-                }else{
-                    console.log("You should up and running. Push in choke after running a minute or two." );
-
-
-                    if (chokePushed === "yes"){
-                        prompt(runSmooth);
-                    }else{
-                         prompt(chokePushed);
-
-
-                        if (runSmooth === "yes"){
-                            console.log("You should up and running")
-                        }else{
-                            prompt("Pull choke until engine runs rough, then push choke in.");
-                        }
-
-                    }
-                }
-            }
-        }
+}else{
+    prompt(chokePulled);
+}
+if (ropePulled = true){
+    prompt(snowBlowerRun);
+}else{
+    prompt(ropePulled);
+}
+if (snowBlowerRun = true){
+    prompt(runRough);
+}else{
+    prompt(ropePulled);
+}
+if (runRough = true){
+    prompt(chokePushed);
+}else{
+    console.log("You should up and running. Push in choke after running a minute or two." );
+}
+if (chokePushed = true){
+    prompt(runSmooth);
+}else{
+    prompt(chokePushed);
+}
+if (runSmooth = true){
+    console.log("You should be up and running")
+}else{
+    console.log("Pull choke until engine runs rough, then push choke in.")
 }
