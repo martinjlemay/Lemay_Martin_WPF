@@ -15,7 +15,7 @@ if (computerChoice < 0.34) {
 } else {
     computerChoice = "scissors";
 } console.log("Computer: " + computerChoice);
-var compare = function(choice1, choice2){
+var compare = function(userChoice, computerChoice){
     if (userChoice === userChoice){
         console.log("The result is a tie!");
     }
