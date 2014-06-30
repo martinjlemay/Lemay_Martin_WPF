@@ -7,9 +7,19 @@
 // Aquarium building guide lines for rectangle tank tanks with dimensions between the sizes 15" x 24" and 33" x 96"
 
 var l = prompt("Home many inches long will tank be");
-var w = prompt("How many inches wide will tank be");
+while(isNaN(l) || l===""){
+    l = prompt("Home many inches long will tank be");
+}
+    var w = prompt("How many inches wide will tank be");
+while(isNaN(w) || w===""){
+    w = prompt("Home many inches long will tank be");
+}
 var h = prompt("How many inches tall will tank be");
+while(isNaN(h) || h===""){
+    h = prompt("Home many inches long will tank be");
+}
 var totalGallons = volume(l,w,h);
+
 
 function volume(l,w,h){
     gallons = Math.round((l * w * h) /231);
