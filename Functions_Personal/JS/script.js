@@ -43,6 +43,6 @@ var bowler3= bowler(game1, game2, game3);
 
 console.log(firstName + " " + lastName +"\' average = ", bowler3);//prints bowler 3 's name and average to console
 
-console.log("The team\'s average is ", (bowler1 + bowler2 + bowler3)/3 );..//prints team's name and average to console
+console.log("The team\'s average is ", (bowler1 + bowler2 + bowler3)/3 );//prints team's name and average to console
 
 
