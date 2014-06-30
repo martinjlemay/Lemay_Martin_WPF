@@ -5,8 +5,10 @@
 
 //******** Rock, Paper, Scissors *******
 
-
 var userChoice = prompt("Do you choose rock, paper or scissors?");
+    while(userChoice !="rock" && userChoice != "paper" && userChoice != "scissors"){
+        userChoice= prompt("Please type in rock paper or scissors in lower case only Only!")
+    }
 var computerChoice = Math.random();
     if (computerChoice < 0.34) {
        computerChoice = "rock";
@@ -29,11 +31,11 @@ var compare = function(userChoice, computerChoice){
     }
 };
 compare(userChoice,computerChoice);{
-    if (userChoice=== "paper"){
-        if (computerChoice === "rock"){
-            console.log ("paper wins");
-        }else {
-          console.log ("scissors wins");
+    if (!(userChoice !== "paper")) {
+        if (!(computerChoice !== "rock")) {
+            console.log("paper wins");
+        } else {
+            console.log("scissors wins");
         }
     }
 }
